@@ -26,7 +26,6 @@ Spock vaporizes Rock
 int main() {
     int user {};
     
-    while (user == !6){
         std::cout << "Pick your weapon: \n";
         std::cout << "1) Rock\n";
         std::cout << "2) Paper\n";
@@ -140,7 +139,5 @@ int main() {
                 std::cout << "invalid input\n";
                 break;
         }
-    }
     return 0;
-    
     }
